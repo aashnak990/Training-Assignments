@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form>
+        <h1>Register</h1>
+        <label>First Name:<input type="text" placeholder="Aashna" required></label>
+        <label>Last Name:<input type="text" placeholder="Kapoor" required></label><br>
+        <label>Male<input type="radio" name="gender" value="male" required></label>
+        <label>Female<input type="radio" name="gender" value="female" required></label>
+        <label>Other<input type="radio" name="gender" value="other" required></label><br>
+        <label>Email:<input type="email" placeholder="Email" required></label>
+        <label>Password:<input type="password" placeholder="Password" pattern=".{5,}" title="5 or more characters" required></label>
+        <br>
+        <fieldset>
+            <legend>Birthday:</legend>
+            <label for="month">Month:</label>
+            <select name="month" id="month" required>
+              <option value="january">Jan</option>
+              <option value="february">Feb</option>
+              <option value="march">Mar</option>
+              <option value="april">Apr</option>
+            </select>
+            <label for="day">Day</label>
+            <select name="day" id="day" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <label for="year">Year</label>
+            <select name="year" id="year" required>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+            </select>
+        </fieldset>
+        <label>I agree to the terms and conditions<input type="checkbox" required></label><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
