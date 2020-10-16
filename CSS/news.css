@@ -1,0 +1,36 @@
+.container{
+    padding-top: 7px;
+}
+
+fieldset{
+    border: 10px solid black;
+}
+legend{
+    font-size: large;
+    font-weight: 500;
+}
+marquee{
+    font-weight: 800;
+    font-size: x-large;
+}
+.c1{
+    border: 5px solid gray;
+    width:95%;
+    padding:5px;
+    margin:5px auto;
+
+}
+.header{
+    background-image: url("https://wallpapercave.com/wp/wp2581365.jpg");
+    height: 100px;
+    width: 1498px;
+    color: white;
+}
+.heading{
+    font-size: x-large;
+    text-align: center;
+}
+h1{
+    border-left: 5px solid red;
+}
+ 
