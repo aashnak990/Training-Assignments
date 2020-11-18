@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.items{
+    float: right;
+    margin: 20px;
+    
+}
+h1{
+    text-align: center;
+    background-color: yellow;
+}
+p{text-align: center;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+.inner{
+    background-color: white;
+    margin: 10px;
+    
+  
+}
+.snowman{
+    position:absolute;
+    margin: 40px;
+    
+}
+.boot{
+    top: 620px;
+    right: 1200px;
+    position:absolute;
+    z-index: 500;
+ }
+ .hat{
+    top:80px;
+    right: 1200px;
+    position:absolute;
+    z-index: 500;
+ }
+ .goggs{
+    top:170px;
+    right: 1200px;
+    position:absolute;
+    z-index: 500;
+ }
+ .muffs1{
+    top:290px;
+    right: 1200px;
+    position:absolute;
+    z-index: 500;
+ }
+ .muffs2{
+    top:290px;
+    right: 1190px;
+    position:absolute;
+    z-index: 500;
+ }
