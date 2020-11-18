@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+ 
+}
+.items{
+    float: right;
+    position: sticky;
+}
+.snowman{
+    padding-left: 300px;
+    padding-top: 120px;
+    position: absolute;
+ 
+}
+.boot{
+   padding-top: 640px;
+   padding-right: 910px;
+   position:relative;
+   z-index: 500;
+}
+.hat{
+    padding-top:80px;
+   padding-right: 840px;
+   position:relative;
+   z-index: 500;
+}
+.goggs{
+    padding-top:170px;
+   padding-right: 730px;
+   position:relative;
+   z-index: 500;
+}
+.muffs1{
+   padding-top:290px;
+   padding-right: 650px;
+   position:relative;
+   z-index: 500;
+}
+.muffs2{
+    padding-top:290px;
+   padding-right: 520px;
+   position:relative;
+   z-index: 500;
+}
