@@ -1,0 +1,25 @@
+.upperDiv
+    {
+      width: 50%;
+      height:150px;
+      background-color:blue ;
+      display: inline-block;
+      margin: -2px;
+    }
+
+
+.div1
+    {
+      width: 25%;
+      height:400px;
+      background-color:yellow ;
+      display: inline-block;
+      margin: -2px;
+    }
+.div2
+    {
+      width: 25%;
+      height:400px;
+      display: inline-block;
+      margin: -2px;
+    }
