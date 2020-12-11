@@ -1,0 +1,28 @@
+[
+  {
+    "imageUrl": "./MediaFiles/Candidate-1.jpg",
+    "Name" : "Anita Mishra"
+  },
+  {
+    "imageUrl": "./MediaFiles/Candidate-2.jpg",
+    "Name" : "Rohit Mishra"
+  },
+  {
+    "imageUrl": "./MediaFiles/Candidate-3.jpg",
+    "Name" : "Jenny"
+  },
+  {
+    "imageUrl": "./MediaFiles/Candidate-4.jpeg",
+    "Name" : "Harsh"
+  },
+  {
+    "imageUrl": "./MediaFiles/Candidate-5.jpeg",
+    "Name" : "Ben"
+  },
+  {
+    "imageUrl": "./MediaFiles/Candidate-6.jpeg",
+    "Name" : "Emma"
+  }
+
+  
+]   

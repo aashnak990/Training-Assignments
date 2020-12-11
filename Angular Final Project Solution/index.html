@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performer2020</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.6/ui-grid.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.6/ui-grid.js"></script>
+    <script src="script.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body ng-app="Myapp" ng-controller="performanceController">
+
+    <section>
+        <!-- Heading -->
+        <div class="heading">
+            <p class="text-center">Performer's of the year 2020<p>
+        </div>
+        <!-- Heading Ends -->
+        <!-- Performer's Cards -->
+        <div class="row container-fluid">
+            <div class="card-group">
+                <div class="col-lg-3 mt-3 cards" ng-repeat="i in performerCandidates">
+                    <img class="card-image" ng-src="{{i.imageUrl}}" height="250em" >
+                    <div class="card-body text-body">
+                        <p class="card-text text-success text-center font-weight-bold">{{i.Name}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Performer's Cards Ends -->
+    </section>
+
+    <!-- Table section -->
+    <section class="table-section">
+        <h2 class="text-center eligible-heading mt-5">Eligible Candidates</h2>
+        <!-- ui-grid -->
+        <div  ui-grid="eligibleCandidates" class="grid grid-align m-5" ui-grid-auto-resize>
+        </div>
+       <!-- ui-grid ends -->
+    </section>
+    <!-- Table Section Ends -->
+</body>
+</html>

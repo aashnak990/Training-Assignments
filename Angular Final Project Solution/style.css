@@ -1,0 +1,58 @@
+:root {
+    --heading: #dad6d6;
+    --shadow:#808080;
+    --table-head:#080879;
+    --white:#ffffff;
+    --dark-grey:#505050; 
+  }
+
+/* heading */
+.heading{
+    background-color: var(--heading);
+    padding: .4rem;
+    font-size: 2rem;
+    box-shadow: 0rem .4rem .3rem var(--shadow);
+}
+/* heading ends*/
+
+/* Cards */
+.text-body{
+    width: 15rem;
+    background-color: var(--heading);
+}
+.cards{
+    margin-left: 7rem;
+}
+.card-image{
+    padding-left:1rem;
+}
+/* Cards ends*/
+
+/* Table Section */
+.table-section{
+    background-color:var(--heading);
+    text-align: center;
+}
+.eligible-heading{
+    color: var(--dark-grey);
+}
+/* Table Section ends*/
+
+/* ui-grid */
+.grid .ui-grid-header-cell {
+    height: 4rem;
+    background-color: var(--table-head);
+    color:var(--white);
+}
+.ui-grid-cell, .ui-grid-cell .ui-grid-vertical-bar {
+    height: 4rem!important; 
+}
+
+/* ui-grid ends*/
+
+@media only screen and (max-width:500px)
+{ .cards {
+  margin-left: 2.5rem;
+}
+}
+
